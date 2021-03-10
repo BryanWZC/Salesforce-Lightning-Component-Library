@@ -1,0 +1,23 @@
+/* this will ensure the footer is not pushed down to the bottom of the page */
+.lwc-flow-footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-shadow: none;
+    border: none;
+    padding: 20px 0 20px 0;
+}
+
+/**Override for typical behavior**/
+.slds-progress {
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+.slds-progress_marker {
+    border-color: #84276B !important;
+}
+
+.slds-progress-bar__value {
+    background-color: #84276B !important;
+}
