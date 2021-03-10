@@ -3,7 +3,7 @@
 A flow footer that displays a progress bar(more like progress steps). It uses current flow stages and active flow stages to create the progress steps.
 
 ## Instructions
-1. Download the src folder and rename it to `progressBar` or any naming convention. Just make sure that the naming is consistent with the file names and within the code.
+1. Download the `src` folder and rename it to `progressBar` or any naming convention. Just make sure that the naming is consistent with the file names and within the code.
 2. Go onto flow (In lightning experience: setup > process automation > flows). You should see the component as a custom component when using a screen component. Drag it onto the screen.
 3. Fill in the fields. 
     - For `showNext` or `showPrevious`, use `{!$GlobalConstant.True}` for true and `{!$GlobalConstant.False}` for false assignment. If the screen is the last screen, you might want to change the label to `Finish` instead of `Next`.
